@@ -1,0 +1,97 @@
+.topside {
+  height: 5em;
+  padding: 5em;
+  background-image: url(../imgs/top_image-meeple.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+@font-face {
+  font-family: fuente_gruesa;
+  src: url(../fonts/MOTHEM_Black.ttf);
+}
+
+@font-face {
+  font-family: fuente_cursiva;
+  src: url(../fonts/Dancing_Script.ttf);
+}
+
+.topside h1 {
+  color: black;
+  font-family: fuente_gruesa;
+  margin: 0px;
+  padding-right: 70%;
+  text-align: center;
+  font-size: 3em;
+}
+
+.topside p {
+  color: black;
+  font-family: fuente_cursiva;
+  font-size: 2em;
+  margin: 0px;
+  padding-right: 70%;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(94, 108, 112);
+  background-color: rgb(249, 237, 241);
+}
+
+.new_font {
+  font-family: fuente_cursiva;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+/* table td {
+  border: 1px solid black;
+} Lo dejo para ponerle los bordes luego */
+
+/* Para hacer encajar la imagen en la celda 👇🏻 */
+img {
+  object-fit: cover;
+  width: 90%;
+  height: auto;
+}
+
+.game_table td {
+  width: 15em;
+  padding: 2em;
+}
+
+.game_table_img {
+  text-align: center;
+}
+
+.game_table_description td {
+  padding: 0em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bottomside {
+  height: 4em;
+  line-height: 1.2em;
+  background-color: rgb(166, 239, 239);
+  color: black;
+  text-align: center;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+  line-height: 4em;
+}
